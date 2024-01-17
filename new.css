@@ -1,0 +1,86 @@
+.title 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    background-color: #0e80b9;
+    width: 110%;
+    height: 100%;
+    margin-top: -0.75%;
+    margin-left: -0.75%;
+    margin-right: -0.75%;
+    color: white;
+}
+   
+.title h1{
+    margin-top: 1%;
+    font-family: 'Noto Serif Display', serif;
+}
+
+img 
+{
+    margin-top: 1%;
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.complaint
+{
+    position: relative;
+    margin: 0 auto;
+    background-color: aliceblue;
+    width:40%;
+    padding: 15px;
+    margin-top: 4%;
+    text-align: left;
+}
+
+#name, #reg, #email, #phone, #roomnum, #username  
+{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+#textarea
+{
+    width: 93%;
+}
+
+#btn {
+    background-color: #008dd2;
+    color: white;
+    padding: 4px 4px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+}
+  
+#btn:hover {
+    opacity: 1;
+}
+
+@media (max-width:900px)
+{
+    #btn
+    {
+        width: 40%;
+    }
+}
+
+.footer
+{
+    position: relative;
+    bottom: -40px;
+    background-color: #008dd2;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.message{
+    color: red;
+}

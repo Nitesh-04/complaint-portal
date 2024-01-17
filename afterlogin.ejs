@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VIT Complaint Portal</title>
+    <link rel="stylesheet" type="text/css" href="afterlogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <div class ="main">
+        <div class ="title">
+            <img src = "https://vtop.vit.ac.in/vtop/assets/img/VITLogoEmblem.png">
+            <h1>VIT Complaint Portal</h1>
+        </div>
+        <div class = "desp">
+            <h4>VIT Complaint Portal (VITCP) is an online platform available to the Students and Faculty. Available
+                24x7 to lodge grievances.</h4>
+        </div>
+        <div id="message">
+            <h4><center><%=message%></center></h4>
+        </div>
+        <div class ="button">
+            <div class = "new_comp"><img src = "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80"><button type="button" id ="new">New Complaint</button></div>
+            <div class = "status_comp"><img src ="https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_1280.png"><button type="button" id ="status">Complaint Status</button></div>
+        </div>
+        <div class ="footer">
+            <footer>Nitesh Kakkar</footer>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('new').addEventListener('click', function()
+        {
+            window.location.href= '/new_complaint';
+        });
+        document.getElementById('status').addEventListener('click', function()
+        {
+            window.location.href= '/view_complaint';
+        });
+    </script>
+    
+</body>
+
+</html>

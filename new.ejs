@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap" rel="stylesheet">
+    <title>Complaint</title>
+</head>
+<body>
+    <div class ="main">
+        <div class ="title">
+            <img src = "https://vtop.vit.ac.in/vtop/assets/img/VITLogoEmblem.png">
+            <h1>VIT Complaint Portal</h1>
+        </div>
+        <div class="complaint">
+        <form class ="form" action="/new_complaint" method ="POST">
+            <div class="message">
+                <h4><center><%=message%></center></h4>
+            </div>
+            <input type="text" name = "name" id="name" required placeholder="Name"><br>
+            <input type="text" name ="regno" id="reg"  required placeholder="Register Number"><br>
+            <input type ="email" name = "email" id="email" required placeholder="Email"><br>
+            <input type="number" name = "phone" id="phone" required placeholder="Phone Number"><br>
+            <input type="text" name = "room" id="roomnum" required placeholder="Room Number"><br>
+            <label for="Type">Nature of Complaint</label>
+            <select name="nature" id="nature">
+                <option value="choose" selected disabled >Select an Option</option>
+                <option value="Carpentery">Carpentery</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Plumbing">Plumbing</option>
+                <option value="Pest">Pest</option>
+            </select>
+            <br><br>
+            <label id="text">Enter Description of Complaint</label><br><br>
+            <textarea type="text" id="textarea" name="desp" maxlength="120" placeholder="120 words" rows="4" cols="20"></textarea><br><br>
+            <button class="btn" type="submit">Submit</button></btn>
+        </form>
+        
+        </div>
+    </div>
+    <div class ="footer">
+        <footer>Nitesh Kakkar</footer>
+    </div>
+            
+</body>
+</html>

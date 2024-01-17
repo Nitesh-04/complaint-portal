@@ -1,0 +1,170 @@
+
+.title 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    background-color: #0e80b9;
+    width: 110%;
+    height: 100%;
+    margin-top: -0.75%;
+    margin-left: -0.75%;
+    margin-right: -0.75%;
+    color: white;
+}
+   
+.title h1{
+    margin-top: 1%;
+    font-family: 'Noto Serif Display', serif;
+}
+
+img 
+{
+    margin-top: 1%;
+    max-width: 45px;
+    max-height: 45px;
+}
+   
+.h3
+{
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.desp h4{
+    margin-top: 2.5%;
+    text-align: center;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    
+}
+
+.new_comp
+{
+    border-width: 3px 0.5px 0.5px 0.5px ;
+    border-color: #008dd2;
+    border-radius: 2px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.status_comp
+{
+    border-width: 3px 0px 0px 0px ;
+    border-color: sandybrown;
+    border-radius: 2px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+@media (max-width:900px) {
+    .button{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 15%;
+        width:50%;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .status_comp
+    {
+        margin-top: 40%;
+    }
+    
+    #new
+    {
+        width: 92%;
+    }
+}
+
+.new_comp>img
+{
+    height: 90%;
+    width: 50%;
+}   
+
+.new_comp>img
+{
+    height: 90%;
+    width: 50%;
+}
+
+#new
+{
+    background-color: #008dd2;
+    font-size: 15px;
+    padding: 7px 14px;
+    text-align: center;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+    height:90%;
+}
+
+#new:hover{
+    background-color: white;
+    color: black;
+}
+
+#status
+{   
+    background-color: sandybrown;
+    font-size: 15px;
+    padding: 7px 14px;
+    text-align: center;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+    height:90%;
+}
+
+#status:hover{
+    background-color: white;
+    color: black;
+}
+
+.end-banner
+{
+    background-color: #008dd2;
+    margin-top: 26%;
+    margin-left: -0.75%;
+    margin-right: -0.75%;
+    height: 30px;
+    
+}
+
+.footer
+{
+    position: absolute;
+    bottom:0;
+    background-color: #008dd2;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#message
+{
+    color: red;
+    margin-top:10px;
+}
