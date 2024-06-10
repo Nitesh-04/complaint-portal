@@ -1,2 +1,6 @@
 # complaint-portal
-UNDER DEVELOPMENT. first full stack project using html css js, backend using node/express.js and postgreSQL
+a very basic ui
+login / sign up
+register complaints
+view complaints
+using html css js ejs, backend using node/express.js and postgreSQL
