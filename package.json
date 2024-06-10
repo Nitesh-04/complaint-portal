@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "connect-pg-simple": "^9.0.1",
@@ -22,6 +23,10 @@
     "nodemon": "^3.0.2",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "tailwindcss": "^3.4.4"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.38"
   }
 }

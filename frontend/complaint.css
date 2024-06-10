@@ -1,0 +1,50 @@
+.main {
+    text-align: center; /* Center align all content inside .main */
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center align title */
+    gap: 20px;
+    background-color: #0e80b9;
+    color: white;
+}
+
+.title h1 {
+    font-family: 'Noto Serif Display', serif;
+}
+
+img {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.table {
+    margin: auto; /* Center the table horizontally */
+    margin-top: 40px;
+    width: 70%;
+    border: black 1px solid;
+}
+
+table, th, td {
+    border: black 1px solid;
+    padding: 10px;
+}
+
+.open-status {
+    color: green;
+}
+
+.complaint {
+    margin-top: 40px;
+}
+
+.complaint > h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.desp {
+    width: 50%;
+}
